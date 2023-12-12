@@ -1,0 +1,130 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\GNagaraj\\projects\\test-script\\playwright.config.ts",
+    "rootDir": "C:/Users/GNagaraj/projects/test-script/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1,
+      "totalTime": 15443.469
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/GNagaraj/projects/test-script/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/GNagaraj/projects/test-script/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.37.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "a-example-1.spec.ts",
+      "file": "a-example-1.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "fasdf",
+          "file": "a-example-1.spec.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "main navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 9296,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-12-12T06:40:38.777Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\GNagaraj\\projects\\test-script\\test-results\\a-example-1-fasdf-main-navigation\\video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\GNagaraj\\projects\\test-script\\test-results\\a-example-1-fasdf-main-navigation\\test-finished-1.png"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\GNagaraj\\projects\\test-script\\test-results\\a-example-1-fasdf-main-navigation\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bc23de417d1316794cf7-7eb186dbaa753821bd1d",
+              "file": "a-example-1.spec.ts",
+              "line": 9,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
